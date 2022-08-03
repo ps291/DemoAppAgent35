@@ -1,0 +1,7 @@
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent35\WcfService35\bin\WcfService35.dll.config
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent35\WcfService35\bin\WcfService35.dll
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent35\WcfService35\bin\WcfService35.pdb
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent35\WcfService35\obj\Debug\WcfService35.csproj.AssemblyReference.cache
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent35\WcfService35\obj\Debug\WcfService35.csproj.CoreCompileInputs.cache
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent35\WcfService35\obj\Debug\WcfService35.dll
+C:\Users\prakhar.saxena\Documents\GitHub\DemoAppAgent35\WcfService35\obj\Debug\WcfService35.pdb
