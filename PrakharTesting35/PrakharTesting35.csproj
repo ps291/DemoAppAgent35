@@ -50,7 +50,6 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -60,6 +59,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Connected Services\AgentDBService\PrakharTesting35.AgentDBService.TR_Agent.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\AgentDBService\WcfService.disco" />
+    <None Include="Connected Services\AgentDBService\configuration91.svcinfo" />
+    <None Include="Connected Services\AgentDBService\configuration.svcinfo" />
+    <None Include="Connected Services\AgentDBService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
@@ -72,6 +81,16 @@
     <Content Include="obj\Debug\PrakharTesting35.csproj.AssemblyReference.cache" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <None Include="Connected Services\AgentDBService\WcfService.wsdl" />
+    <None Include="Connected Services\AgentDBService\WcfService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AgentDBService\WcfService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AgentDBService\WcfService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -80,16 +99,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Connected Services\ServiceReference2\PrakharTesting35.ServiceReference2.CompositeType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <None Include="Connected Services\ServiceReference2\Service1.disco" />
-    <None Include="Connected Services\ServiceReference2\configuration91.svcinfo" />
-    <None Include="Connected Services\ServiceReference2\configuration.svcinfo" />
-    <None Include="Connected Services\ServiceReference2\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -103,16 +112,6 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="WCFCall.aspx" />
     <Content Include="WebAPICall.aspx" />
-    <None Include="Connected Services\ServiceReference2\Service1.wsdl" />
-    <None Include="Connected Services\ServiceReference2\Service1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\ServiceReference2\Service11.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\ServiceReference2\Service12.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="packages.config" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -130,28 +129,25 @@
     <Content Include="Site1.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\ServiceReference2\Reference.cs">
+    <Compile Include="Connected Services\AgentDBService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="ExceptionCall.aspx.cs">
       <DependentUpon>ExceptionCall.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ExceptionCall.aspx.designer.cs">
       <DependentUpon>ExceptionCall.aspx</DependentUpon>
     </Compile>
     <Compile Include="HttpCall.aspx.cs">
       <DependentUpon>HttpCall.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="HttpCall.aspx.designer.cs">
       <DependentUpon>HttpCall.aspx</DependentUpon>
     </Compile>
     <Compile Include="MongoDBCall.aspx.cs">
       <DependentUpon>MongoDBCall.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MongoDBCall.aspx.designer.cs">
       <DependentUpon>MongoDBCall.aspx</DependentUpon>
@@ -159,28 +155,24 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
     <Compile Include="SQLCall.aspx.cs">
       <DependentUpon>SQLCall.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SQLCall.aspx.designer.cs">
       <DependentUpon>SQLCall.aspx</DependentUpon>
     </Compile>
     <Compile Include="WCFCall.aspx.cs">
       <DependentUpon>WCFCall.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="WCFCall.aspx.designer.cs">
       <DependentUpon>WCFCall.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebAPICall.aspx.cs">
       <DependentUpon>WebAPICall.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="WebAPICall.aspx.designer.cs">
       <DependentUpon>WebAPICall.aspx</DependentUpon>
@@ -199,7 +191,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ServiceReference2\" />
+    <WCFMetadataStorage Include="Connected Services\AgentDBService\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

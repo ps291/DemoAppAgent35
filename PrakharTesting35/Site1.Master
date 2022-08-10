@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Prakhar&#39;s Application</a>
+                <a class="navbar-brand" href="/HttpCall.aspx">Prakhar&#39;s Application</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">

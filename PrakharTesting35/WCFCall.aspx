@@ -4,5 +4,17 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
     <h1>WCF Call done Successfully</h1>
+
+    <br />
+    <code>
+        <ul>
+            <li>Connect MS SQL</li>
+            <br />
+            <li>Get data</li>
+            <br />
+            <li>Update Data</li>
+        </ul>
+    </code>
+    <br /><br />
 </div>
 </asp:Content>
